@@ -13,12 +13,16 @@
 .imk-p{
     width: 100%;
     height: 100%;
+    filter: brightness(0.5);
 }
 .bac-img{
     width: 100%;
     height: 100%;
     position: relative;
     z-index: 0;
+}
+.store-header{
+    display: none !important;
 }
 .logo{
     text-align: center;
@@ -31,24 +35,54 @@
 }
 .ist-al{
     font-size: 18px;
-    text-shadow: 0px 0px 3px black;
+    /* text-shadow: 0px 0px 3px black; */
 }
 .kh-d h1{
     margin-top: 15px;
     text-shadow: 0px 0px 11px black;
     color: white; margin-top: 10px;
 }
+.allam-hf{
+    width: 100%;
+}
+.kh-2{
+    background-color: #eeeeee69;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.gh-kh{
+    /* background-image: url('https://raw.githubusercontent.com/YoussefNsserALlam/imgs/main/img8-removebg-preview%20(2).png'); */
+    background-position: right;
+    height: 300px;
+    background-color: #30336b;
+    width: 90%;
+    /* background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+}
+.allam-hf div{
+    width: 90%;
+    /* margin: 20px; */
+    border-radius: 10px;
+    margin: 10px;
+    height: 200px;
+}
 .my-btm{
     background-color: #30336b;
     color: white;
     text-decoration: none;
-    width: 150px;
-    height: 30px;
+    width: 149px;
+    height: 37px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 7px;
     font-size: 20px;
     transition: .5s !important;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .my-btm:hover{
     background-color: transparent;
@@ -59,17 +93,21 @@
     background-color: #d1ccc0;
 }
 .cord{
-    width: 300px;
+    /* width: 320px; */
     border-radius: 4px;
+    width: 50%;
+    border-radius: 4px;
+    height: 100%;
+    margin: 10px;
 }
 .cord img{
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-radius: 4px;
 }
 .cord-body{
     width: 100%;
-    height: 200px;
+    height: 120%;
     background-color: white;
     z-index: 2;
     position: relative;
@@ -82,27 +120,100 @@
 }
 footer{
     width: 100%;
-    background-color: black;
+    background-color: #30336b;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-ul{
+.m-ul{
     /* margin: 0 !important; */
     padding: 0 !important;
-    width: 200px !important;
-    background: #707070;
+    width: 100% !important;
+    /* background: #d1ccc0; */
     margin: 10px !important;
     border-radius: 14px;
+    list-style: none;
 }
-ul a{
+.nav-link{
+    color: #d1ccc0 !important;
+}
+.m-ul li i{margin: 5px;}
+
+.m-ul li{
+    display: flex;
+}
+.m-ul a, li{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px;
-    width: 70px;
     transition: .5s;
 }
 ul a{
     margin: 15px;
+}
+.sil-img{
+    width: 100%;
+}
+.i-ard{
+    width: 80%;
+}
+.i-ard img{
+    width: 100%;
+    height: 300px;
+    margin: 3px;
+    border-radius: 14px;
+}
+.ip-all{
+    z-index: 100 !important;
+    background-color: #30336b !important;
+    width: fit-content !important;
+}
+.in-l{
+    width: 100%;
+}
+.i-ard-2{
+    /* width: 77%; */
+}
+.i-ard-2 img{
+    width: 200px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.i-ard4{
+    height: 328px;
+}
+.i-ard4 img{
+    width: 200px;
+}
+nav{
+    background-color: #30336b;
+}
+.a-li{
+    text-decoration: none;
+    background-color: #d1ccc0;
+    color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.a-li:hover{
+    border: 3px solid #d1ccc0;
+    background-color: transparent;
+    color: white;
+}
+.ui-o{
+    list-style: none;
+    width: 70%;
+    /* background-color: #d1ccc0; */
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
 }
